@@ -5,7 +5,7 @@ export default function Main() {
   const navigate = useNavigate()
 
   const handleSubClick=()=>{
-    navigate('/sub')
+    navigate('/recoilex')
   }
   
   const handleApiExClick=()=>{
@@ -17,7 +17,7 @@ export default function Main() {
       Main 페이지 입니다
 
       <button onClick={handleSubClick}>
-        Sub 페이지로 가기
+        Recoil 예시 페이지로 가기
       </button>
 
       <button onClick={handleApiExClick}>
